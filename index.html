@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digitalna galerija</title>
+  <style>
+    body {
+      cursor: crosshair;
+      font-family: Georgia, Helvetica, sans-serif;
+      font-weight: bold;
+      margin: 0;
+      overflow: hidden;
+      padding: 0;
+    }
+
+    #radar {
+      background-color: #EEEEEE;
+      border: 1px solid black;
+      bottom: 10px;
+      left: 10px;
+      position: absolute;
+      z-index: 100;
+    }
+
+    #popup{
+      background-color: #D3D3D3;
+      border-radius: 25px;
+      border: 1px solid black;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      z-index: 100;
+      height: 720px;
+      width : 1280px;
+      transform: translate(-50%, -50%);
+      transition: visibility 0s, opacity 0.5s linear;
+    }
+
+    #prompt{
+      background-color: #FFFFFF;
+      border: 1px solid black;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      z-index: 100;
+      border-radius: 10px;
+      transform: translate(-50%, -50%);
+      transition: visibility 0s, opacity 0.5s linear;  
+    }
+
+    #loading {
+      background-color: #FFFFFF;
+      color: #000000;
+      cursor: pointer;
+      font-size: 32px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 300px;  
+    }
+
+    .imageHorz{
+      vertical-align: top; 
+      width: 700px;
+      height: 500px;
+      padding-top: 20px;
+    }
+
+    .imageVert{
+      vertical-align: top; 
+      width: 420px;
+      height: 680px;
+    }
+
+    .imageVert-wider {
+        width: 400px !important;
+    }
+
+    .textVert{          
+      padding-left: 20px;
+    }
+
+    .paddingVert {
+      margin-top: 0;
+      padding-left: 100px;
+    }
+
+  </style>
+  <script src="jquery-1.7.2.min.js"></script>
+  <script src="three.min.js"></script>
+  <script src="Three.FirstPersonControls.js"></script>
+  <script src="main.js"></script>
+
+
+</head>
+<body>
+
+</body>
+</html>
