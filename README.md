@@ -21,3 +21,6 @@ na kateri piše "Start?".
 - V kolikor se kateremukoli izmed grafičnih del dovolj približamo, se na zaslonu pojavi okno z napisom "Click".
 - Če v tem primeru kliknemo lev miškin gumb se nam grafično delo odpre v ločenem pop-up oknu, kjer se
 nam dodatno izpiše še ime avtorja, ime dela, uporabljena tehnika in kratek opis grafičnega dela.
+
+Github povezava:
+https://github.com/Eldainorn/IOI_projekt
